@@ -1,0 +1,40 @@
+programa {
+  funcao inicio() {
+
+  inteiro opcao = 0
+
+  enquanto(opcao != 4){
+    escreva("Menu\n")
+    escreva("1- Ver saldo\n")
+    escreva("2- Realizar depósito\n")
+    escreva("3- Exibir mensagem Atendimento em andamento\n")
+    escreva("4- Encerrar atendimento\n")
+    escreva("Escolha uma opção: ")
+    leia(opcao)
+
+    escolha(opcao){
+      caso 1:
+        escreva("\nVocê escolheu: Ver saldo\n")
+      pare
+
+      caso 2:
+        escreva("\nVocê escolheu: Realizar depósito\n")
+      pare
+
+      caso 3:
+        escreva("\nAtendimento em andamento\n")
+      pare
+
+      caso 4:
+        escreva("\nEncerrando atendimento.\n")
+      pare
+
+      caso contrario:
+        escreva("\nOpção inválida! Por favor, escolha uma opção de 1 a 4.\n")
+      pare
+    }
+
+  }
+
+  }
+}
