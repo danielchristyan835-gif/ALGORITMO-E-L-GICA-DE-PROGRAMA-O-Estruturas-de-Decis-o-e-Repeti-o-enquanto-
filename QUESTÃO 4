@@ -1,0 +1,16 @@
+programa {
+  funcao inicio() {
+
+  inteiro salario, salarioatualizado, porcen, resultado
+
+  escreva("Qual seu salário atual?: ")
+  leia(salario)
+  escreva("Qual a porcentagem que deseja para seu salário?(%): ")
+  leia(porcen)
+
+  resultado = (salario * porcen) / 100
+  salarioatualizado = resultado + salario
+  escreva("Seu salário foi atualizado para R$: ",salarioatualizado)
+
+  }
+}
