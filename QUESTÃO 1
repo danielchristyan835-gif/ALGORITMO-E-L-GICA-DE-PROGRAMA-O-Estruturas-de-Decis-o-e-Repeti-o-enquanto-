@@ -1,0 +1,19 @@
+programa {
+  funcao inicio() {
+  
+  inteiro a, b, c
+
+  escreva("Qual o valor de A?: ")
+  leia(a)
+  escreva("Qual o valor de B?: ")
+  leia(b)
+
+  c = a 
+  a = b 
+  b = c 
+
+  escreva(a," e ",b) 
+  
+  
+  }
+}
